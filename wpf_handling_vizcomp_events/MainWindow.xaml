@@ -5,7 +5,8 @@
     <Grid>
         <Button x:Name="btnClickMe" Content="Click Me!" HorizontalAlignment="Left" Margin="432,39,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <TextBlock x:Name="txtOutput" HorizontalAlignment="Left" Margin="10,66,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.595,0.522"/>
-        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="497"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="497" TextChanged="txtInput_TextChanged"/>
+        <Grid HorizontalAlignment="Left" Height="38" Margin="10,119,0,0" VerticalAlignment="Top" Width="258"/>
 
     </Grid>
 </Window>
